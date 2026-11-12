@@ -1,0 +1,10 @@
+{
+  "name": "fit",
+  "version": "0.2.0",
+  "description": "Tells a prospective customer honestly whether Fibery fits their problem, and says no when it does not.",
+  "author": {
+    "name": "Fibery"
+  },
+  "homepage": "https://fibery.com",
+  "repository": "https://github.com/Fibery-inc/fit"
+}
