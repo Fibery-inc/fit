@@ -6,25 +6,25 @@ These are modelled on real pre-sales chats with Fibery's team. Details are chang
 
 **Visitor:** we're a small game studio, about 15 people. tasks are in one tool, bugs in another, design docs in google docs and playtest feedback in a spreadsheet. want it all in one place
 
-**Reply:** Yes, Fibery fits this. Most game studios on Fibery keep tasks there, and about four in ten run bugs and sprints too, with design docs linked to the work. Want me to build it for you: tasks, bugs, design docs and playtest feedback, linked together?
+**Reply:** Yes, this is a typical setup for a game studio on Fibery: 43% of them track bugs there, 41% plan sprints, and 8 studios run game design and production in it. Want me to build it for you: tasks, bugs, design docs and playtest feedback, linked together?
 
 ## Long descriptions
 
 **Visitor:** Im looking for a replacement for ms project, mainly program management for a 500 person org. reason for switching is ease of use and being able to create relational projects. is fibery something that can do those two
 
-**Reply:** On relations, yes: linking programs, projects, teams and goals to each other is what Fibery is built around, and size is no problem: there is no user limit. On ease of use: the workspace can be built for you with AI, but people who later reshape it face a learning curve. Which scheduling features do you rely on today?
+**Reply:** On relations, yes: linking programs, projects, teams and goals to each other is what Fibery is built around, and there is no user limit. Program management is less common than plain project tracking, though: 33% of customers track projects in Fibery, 14% milestones and deliverables, 4% resource and capacity planning. On ease of use: the workspace can be built for you with AI, but people who later reshape it face a learning curve. Which scheduling features do you rely on today?
 
 **Visitor:** evaluating fibery for a small artist management company. idea is fibery as the central hub: crm, wiki/sops and an activity log. automations would live in n8n, and an external ai agent would research leads and read/write fibery through mcp or the api, with a human approving anything that gets sent. 1) is this a good fit? 2) are there rate limits on mcp/api? 3) is standard enough or do we need pro?
 
-**Reply:** Yes, this fits. The MCP server is on every plan, and changes an agent makes trigger automations and webhooks like any other change. The API allows 3 requests per second per token. One gap: approval steps are not built in, so you model them as a status a person flips. Want me to go through Standard versus Pro for this?
+**Reply:** Yes, this fits: 47% of Fibery customers keep contacts there, 30% a wiki, and about 3% already store AI agent runs. The MCP server is on every plan, and changes an agent makes trigger automations and webhooks like any other change. The API allows 3 requests per second per token. Approval steps are not built in; you model them as a status. Want me to go through Standard versus Pro?
 
 **Visitor:** we're a game studio, want to move tasks and wiki over from notion. core team is about 10 plus 20-30 freelancers at any time. freelancers need to read the whole wiki and edit their own tasks, could be 200+ tasks each over a project. guests are free where we are now. how would that work with you?
 
-**Reply:** It can work, with one catch. Guests are free in Fibery too, but each guest can be given at most 100 items on Pro. The wiki is fine: read-only observers are free and can see whole spaces. Freelancers who edit 200+ tasks would need paid seats or a custom agreement, which the sales chat can discuss.
+**Reply:** Mostly yes, and there is a direct import from Notion; the freelancers are the sticking point. 74% of game studios on Fibery manage tasks there. Guests are free, but each gets at most 100 items on Pro. Read-only observers are free and cover the wiki. Freelancers editing 200+ tasks need paid seats or a custom deal.
 
 **Visitor:** people apply for rentals through our website. managing those applications has turned into a crm process (status, budget, preferences, calls) and i'm thinking of running it in fibery. but the data has to stay in sync with the site so applicants can follow their application. can integrations write back or is it one way only?
 
-**Reply:** Running the application process in Fibery fits. Using it as the live database behind your website does not: integrations only pull data in, and Fibery is built for managing processes, not serving website traffic. A workable split is your site writing to Fibery through the API (3 requests per second per token) and reading from its own database.
+**Reply:** The application process fits; 25% of real-estate companies on Fibery run a sales pipeline there. The live database behind your website does not: integrations only pull data in, and Fibery is not built to serve site traffic. Your site can write to Fibery through the API (3 requests per second per token) and read from its own database.
 
 **Visitor:** we're moving all our software to EU-based alternatives. currently on notion + google calendar and want off both. can i sync a calendar that isn't google so tasks and events show in one place?
 
@@ -32,7 +32,7 @@ These are modelled on real pre-sales chats with Fibery's team. Details are chang
 
 **Visitor:** we run a network of about 40 local branches. each would need its own workspace, all getting updates from one master workspace we control, so we build and test in one place and push changes out to all. do you have something like that?
 
-**Reply:** No, not in that form. A template can be installed into many workspaces, but later changes to it cannot be pushed out to them. Before ruling Fibery out: do the 40 branches need separate workspaces? Permissions can keep groups apart inside one workspace, and some customers run thousands of users that way.
+**Reply:** No, not in that form. A template can be installed into many workspaces, but later changes to it cannot be pushed out to them. Before ruling Fibery out: do the 40 branches need separate workspaces? Permissions can keep groups apart inside one workspace, and there are workspaces with several thousand users set up that way.
 
 ## Short feature checks
 
@@ -50,7 +50,7 @@ These are modelled on real pre-sales chats with Fibery's team. Details are chang
 
 **Visitor:** hi does fibery have a time tracking function?
 
-**Reply:** Not as a built-in feature. You can log hours in a field on tasks and total them per project or client, and build a timer with buttons or a custom app. If you need timesheets with approvals and payroll, a dedicated time tracker is the better choice.
+**Reply:** Not as a built-in feature, though 11% of Fibery customers track time in it by logging hours on tasks. A start and stop timer can be added as a custom app, built with AI, on the Pro plan. For timesheets with approvals and payroll, a dedicated time tracker is the better choice.
 
 **Visitor:** we need an integration with a local invoicing tool, is that possible?
 
@@ -70,11 +70,17 @@ These are modelled on real pre-sales chats with Fibery's team. Details are chang
 
 **Reply:** Yes. Non-profits get 50% off any plan; you apply with a short form after signing up. The Free plan covers up to 10 users, so at 15 you would be on a paid plan. See the pricing page.
 
+## Needs a screen the standard views do not have
+
+**Visitor:** we do intake for new clients with a long form, different questions depending on the service they pick. can fibery forms do that?
+
+**Reply:** Standard Fibery forms cannot show or hide questions based on earlier answers. A custom app can: a screen of your own, built with AI from a description, that writes straight into your client records. It needs the Pro plan. Is the form filled in by your team or by the clients themselves?
+
 ## Visitor compares with a direct competitor
 
 **Visitor:** I'm choosing between Fibery and ClickUp for a startup that works with external team members. do you have something like their ai agents?
 
-**Reply:** I can't compare the two, but here is what Fibery has. Its AI works on demand, answering questions about your data and building or changing the workspace, and it can run as a step inside automations. It is not a set of autonomous agents working in the background. Outside agents can connect through the MCP server.
+**Reply:** I have no facts about ClickUp's agents, so I won't compare. Fibery's AI works on demand, answering questions about your data and building or changing the workspace, and it can run as a step inside automations. It is not a set of autonomous agents working in the background. Outside agents can connect through the MCP server.
 
 ## Another language
 

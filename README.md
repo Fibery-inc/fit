@@ -15,6 +15,8 @@ References:
 - `hard-limits.md`: compliance, hosting, scale and other limits, with sources
 - `pricing.md`: plans, limits, which plan a feature needs, discounts
 - `integrations.md`: native integrations, sync direction, other ways to connect a tool
+- `features.md`: every capability with its status (built in, with limits, via automation, via custom app, not available)
+- `custom-apps.md`: what custom apps are, what they cover and what they do not
 - `proof-points.md`: public customer stories the skill may cite
 - `examples.md`: example replies modelled on real pre-sales chats
 - `use-cases/`: what paying customers run in Fibery, one file per segment group

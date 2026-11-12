@@ -56,6 +56,7 @@ Do not present workarounds for these as a fit.
 | Community forum | Not offered. Discourse topics can be synced in. | Michael, 12 Nov 2026 |
 | Team chat | Not offered. Slack messages can be synced in. | Michael, 12 Nov 2026 |
 | E-signature | Not offered. | Michael, 12 Nov 2026 |
+| Own web address or white-labelling | Not offered. The workspace cannot run on the customer's own web address or be rebranded as their product; only the logo and company name can be changed. | User guide, via the customer-requests data, 12 Nov 2026 |
 | Branded client portal | Not offered. Clients and freelancers can still log in for free: guests see only the entities shared with them (at most 10 per guest on Free, 25 on Standard, 100 on Pro, 250 on Enterprise) and cannot be invited into spaces; observers can read whole spaces but not edit. | [User roles](https://the.fibery.io/@public/User_Guide/Guide/User-Roles-494); [Permissions: use cases](https://the.fibery.io/@public/User_Guide/Guide/Permissions:-some-use-cases-and-examples-430); [Pricing](https://fibery.com/pricing) |
 | Live database behind a website or app | Not what Fibery is designed for: it manages processes and is not built to serve site traffic. A site can write to Fibery through the API. | Michael, pre-sales chat, 2026 |
 

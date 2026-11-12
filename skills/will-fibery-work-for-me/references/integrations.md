@@ -39,7 +39,7 @@ Checked 12 November 2026 against [fibery.com/templates](https://fibery.com/templ
 
 Imports from files: CSV and Markdown.
 
-**Direct competitors:** importers also exist for three tools that are direct competitors (Airtable, ClickUp, Notion). You may confirm that "there is a direct import from the tool you use now" but do not write those names in a reply.
+**Importing from direct competitors:** there are importers for Airtable, ClickUp and Notion (databases, relations and pages for Notion; tasks and data for ClickUp). Name them when the visitor uses one of these tools: "there is a direct import from Notion". Naming a tool for import or integration is fine; advising one instead of Fibery is not.
 
 ## Everything else
 

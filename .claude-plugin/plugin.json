@@ -1,6 +1,6 @@
 {
   "name": "fit",
-  "version": "0.2.0",
+  "version": "0.5.0",
   "description": "Tells a prospective customer honestly whether Fibery fits their problem, and says no when it does not.",
   "author": {
     "name": "Fibery"
